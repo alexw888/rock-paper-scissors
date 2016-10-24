@@ -3,7 +3,7 @@ from random import randint
 cscore = 0
 uscore = 0
 
-while True:
+while cscore < 5 and uscore < 5:
     def clear():
         print(" \n"*17)
 
@@ -56,8 +56,7 @@ while True:
     if uscore == 5:
         print("Good job!  You won the tournament!")
         clear()
-        break
     elif cscore == 5:
         print("Sorry, the computer outplayed ya!")
         clear()
-        break
+     
